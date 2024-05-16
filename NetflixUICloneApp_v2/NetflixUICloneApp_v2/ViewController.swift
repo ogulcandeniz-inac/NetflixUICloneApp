@@ -24,9 +24,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let f1 = Filmler(resim: "django")
-        let f2 = Filmler(resim: "interstellar")
-        let f3 = Filmler(resim: "inception")
+        let f1 = Filmler(resim: "suits")
+        let f2 = Filmler(resim: "twe")
+        let f3 = Filmler(resim: "peaky")
         let f4 = Filmler(resim: "thehatefuleight")
         let f5 = Filmler(resim: "thepianist")
         let f6 = Filmler(resim: "anadoluda")
