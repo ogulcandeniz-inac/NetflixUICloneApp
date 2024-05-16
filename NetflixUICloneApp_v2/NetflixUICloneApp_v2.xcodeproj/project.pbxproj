@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E380CF342BF609A5000C9463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E380CF332BF609A5000C9463 /* Main.storyboard */; };
 		E3E04D452BF5FE8500F56006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04D442BF5FE8500F56006 /* AppDelegate.swift */; };
 		E3E04D472BF5FE8500F56006 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04D462BF5FE8500F56006 /* SceneDelegate.swift */; };
 		E3E04D492BF5FE8500F56006 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04D482BF5FE8500F56006 /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		E3E04D512BF5FE8600F56006 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E04D4F2BF5FE8600F56006 /* LaunchScreen.storyboard */; };
 		E3E04D772BF5FF3100F56006 /* Filmler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04D762BF5FF3100F56006 /* Filmler.swift */; };
 		E3E04D792BF5FF5800F56006 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E04D782BF5FF5800F56006 /* CollectionViewCell.swift */; };
-		E3E04D7B2BF5FF8F00F56006 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E04D7A2BF5FF8F00F56006 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E380CF332BF609A5000C9463 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E3E04D412BF5FE8500F56006 /* NetflixUICloneApp_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixUICloneApp_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E04D442BF5FE8500F56006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E04D462BF5FE8500F56006 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		E3E04D612BF5FE8700F56006 /* NetflixUICloneApp_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixUICloneApp_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E04D762BF5FF3100F56006 /* Filmler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filmler.swift; sourceTree = "<group>"; };
 		E3E04D782BF5FF5800F56006 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
-		E3E04D7A2BF5FF8F00F56006 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +98,12 @@
 				E3E04D442BF5FE8500F56006 /* AppDelegate.swift */,
 				E3E04D462BF5FE8500F56006 /* SceneDelegate.swift */,
 				E3E04D482BF5FE8500F56006 /* ViewController.swift */,
-				E3E04D7A2BF5FF8F00F56006 /* Main.storyboard */,
 				E3E04D4D2BF5FE8600F56006 /* Assets.xcassets */,
 				E3E04D4F2BF5FE8600F56006 /* LaunchScreen.storyboard */,
 				E3E04D522BF5FE8600F56006 /* Info.plist */,
 				E3E04D762BF5FF3100F56006 /* Filmler.swift */,
 				E3E04D782BF5FF5800F56006 /* CollectionViewCell.swift */,
+				E380CF332BF609A5000C9463 /* Main.storyboard */,
 			);
 			path = NetflixUICloneApp_v2;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E380CF342BF609A5000C9463 /* Main.storyboard in Resources */,
 				E3E04D512BF5FE8600F56006 /* LaunchScreen.storyboard in Resources */,
 				E3E04D4E2BF5FE8600F56006 /* Assets.xcassets in Resources */,
-				E3E04D7B2BF5FF8F00F56006 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
